@@ -4,7 +4,7 @@ if getgenv().Tvk then
 	getgenv().Tvk = true
 	
 	local IndexUIColor = {
-	["Border Color"] = Color3.fromRGB(180, 100, 255),
+	["Border Color"] = Color3.fromRGB(131, 181, 255),
 	["Click Effect Color"] = Color3.fromRGB(220, 180, 255),
 	["Setting Icon Color"] = Color3.fromRGB(220, 180, 255),
 	["Logo Image"] = "rbxassetid://16109161849",
