@@ -4,44 +4,46 @@ if getgenv().Tvk then
 	getgenv().Tvk = true
 	
 	local IndexUIColor = {
-	["Border Color"] = Color3.fromRGB(131, 181, 255),
-	["Click Effect Color"] = Color3.fromRGB(220, 180, 255),
-	["Setting Icon Color"] = Color3.fromRGB(220, 180, 255),
+	["Border Color"] = Color3.fromRGB(255, 1, 132),
+	["Click Effect Color"] = Color3.fromRGB(230, 230, 230),
+	["Setting Icon Color"] = Color3.fromRGB(230, 230, 230),
 	["Logo Image"] = "rbxassetid://16109161849",
-	["Search Icon Color"] = Color3.fromRGB(230, 200, 255),
-	["Search Icon Highlight Color"] = Color3.fromRGB(240, 190, 255),
+	["Search Icon Color"] = Color3.fromRGB(255, 255, 255),
+	["Search Icon Highlight Color"] = Color3.fromRGB(255, 180, 180),
 
-	["GUI Text Color"] = Color3.fromRGB(210, 160, 255),
-	["Text Color"] = Color3.fromRGB(210, 160, 255),
+	-- CHỮ MÀU TÍM NHẠT
+	["GUI Text Color"] = Color3.fromRGB(200, 160, 255),
+	["Text Color"] = Color3.fromRGB(200, 160, 255),
 	["Placeholder Text Color"] = Color3.fromRGB(190, 150, 225),
-	["Title Text Color"] = Color3.fromRGB(230, 180, 255),
+	["Title Text Color"] = Color3.fromRGB(220, 180, 255),
+	["Section Text Color"] = Color3.fromRGB(220, 180, 255),
+	["Section Underline Color"] = Color3.fromRGB(220, 180, 255),
+	["Toggle Desc Color"] = Color3.fromRGB(200, 160, 240),
+	["Label Color"] = Color3.fromRGB(210, 170, 250),
 
-	["Background 1 Color"] = Color3.fromRGB(43, 35, 53),
+	["Background 1 Color"] = Color3.fromRGB(43, 43, 43),
 	["Background 1 Transparency"] = 0,
-	["Background 2 Color"] = Color3.fromRGB(60, 40, 75),
-	["Background 3 Color"] = Color3.fromRGB(53, 40, 75),
+	["Background 2 Color"] = Color3.fromRGB(90, 90, 90),
+	["Background 3 Color"] = Color3.fromRGB(53, 53, 53),
 	["Background Image"] = "",
 
-	["Page Selected Color"] = Color3.fromRGB(190, 140, 255),
-	["Section Text Color"] = Color3.fromRGB(230, 180, 255),
-	["Section Underline Color"] = Color3.fromRGB(230, 180, 255),
-	["Toggle Border Color"] = Color3.fromRGB(230, 180, 255),
-	["Toggle Checked Color"] = Color3.fromRGB(180, 100, 255),
-	["Toggle Desc Color"] = Color3.fromRGB(190, 150, 230),
+	["Page Selected Color"] = Color3.fromRGB(131, 181, 255),
+	["Toggle Border Color"] = Color3.fromRGB(255,180,180),
+	["Toggle Checked Color"] = Color3.fromRGB(230, 230, 230),
 
-	["Button Color"] = Color3.fromRGB(180, 100, 255),
-	["Label Color"] = Color3.fromRGB(200, 150, 255),
-	["Dropdown Icon Color"] = Color3.fromRGB(210, 160, 255),
-	["Dropdown Selected Color"] = Color3.fromRGB(200, 140, 255),
-	["Textbox Highlight Color"] = Color3.fromRGB(190, 120, 255),
-	["Box Highlight Color"] = Color3.fromRGB(190, 120, 255),
-	["Slider Line Color"] = Color3.fromRGB(75, 60, 90),
-	["Slider Highlight Color"] = Color3.fromRGB(120, 80, 160),
+	["Button Color"] = Color3.fromRGB(131, 181, 255),
+	["Dropdown Icon Color"] = Color3.fromRGB(230, 230, 230),
+	["Dropdown Selected Color"] = Color3.fromRGB(131, 181, 255),
+	["Textbox Highlight Color"] = Color3.fromRGB(131, 181, 255),
+	["Box Highlight Color"] = Color3.fromRGB(131, 181, 255),
+	["Slider Line Color"] = Color3.fromRGB(75, 75, 75),
+	["Slider Highlight Color"] = Color3.fromRGB(59, 82, 115),
 
 	["Tween Animation 1 Speed"] = 0.25,
 	["Tween Animation 2 Speed"] = 0.5,
 	["Tween Animation 3 Speed"] = 0.1,
 }
+
 
 	local UpdateCallBack = {}
 	for k,v in pairs(IndexUIColor) do 
